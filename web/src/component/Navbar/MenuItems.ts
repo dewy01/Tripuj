@@ -26,7 +26,7 @@ export const MenuItems: MenuProps[] = [
         cName: "nav-links",
     },
     {
-        title: "SignUp",
+        title: "Sign Up",
         url: "/signup",
         cName: "nav-links-mobile",
     }
