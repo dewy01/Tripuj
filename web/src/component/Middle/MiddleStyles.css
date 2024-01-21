@@ -1,0 +1,44 @@
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.middle {
+    width: 100%;
+    padding: 3rem;
+}
+
+.secContainer .grid {
+    padding: 3rem;
+    border-radius: 25px;
+    background-color: #ecc797;
+    justify-content: center;
+    margin: auto;
+    gap: 2rem;
+}
+
+.secContainer .grid span {
+    justify-content: center;
+    gap: .5rem;
+
+}
+
+.secContainer .grid span p {
+    opacity: .8;
+    max-width: 80px;
+}
+
+@media screen and (max-width: 850px) {
+
+
+    .grid {
+        flex-direction: column;
+    }
+}

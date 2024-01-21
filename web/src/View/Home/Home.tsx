@@ -4,6 +4,7 @@ import Hero from "../../component/Hero/Hero";
 import Navbar from "../../component/Navbar/Navbar";
 import heroimage from "../../assets/1.jpg";
 import Trip from "../../component/Trip/Trip";
+import Middle from "../../component/Middle/Middle";
 
 
 export const Home =() =>{
@@ -19,7 +20,7 @@ export const Home =() =>{
         url="/"
         btnClass="show"
       />
-
+      <Middle/>
       <Destination />
       <Trip />
       <Footer />

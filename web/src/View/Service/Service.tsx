@@ -2,8 +2,8 @@
 import Footer from "../../component/Footer/Footer";
 import Hero from "../../component/Hero/Hero";
 import Navbar from "../../component/Navbar/Navbar";
-import AboutImg from "../../assets/night.jpg";
 import Trip from "../../component/Trip/Trip";
+import Mountain3 from "../../assets/3.jpg";
 
 
 function Service() {
@@ -12,7 +12,7 @@ function Service() {
       <Navbar />
       <Hero
         cName="hero-mid"
-        heroimg={AboutImg}
+        heroimg={Mountain3}
         title="Usługi"
         text="Nasze ostatnie wycieczki"
         btnClass="hide"

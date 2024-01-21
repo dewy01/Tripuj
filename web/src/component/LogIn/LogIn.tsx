@@ -1,10 +1,10 @@
 import { useState } from "react";
-import "./SignupFormStyles.css";
+import "./LoginFormStyles.css";
 import Snackbar from "../Snackbar/Snackbar";
 import { Link } from "react-router-dom";
-import Mountain1 from "../../assets/1.jpg";
+import Mountain2 from "../../assets/2.jpg";
 
-export const Signup = () =>{
+export const Login = () =>{
     const [showSnackbar, setShowSnackbar] = useState(false);
     const [snackbarMessage, setSnackbarMessage] = useState('');
   
@@ -18,23 +18,22 @@ export const Signup = () =>{
     };
   
   return (
-    <div className="flex-signup">
-    <div className="photo">
-    <img src={Mountain1}/>
-  </div>
+    <div className="flex-login">
     <div className="form-container">
-      <h1>Register to use our services</h1>
+      <h1>Login to use our services</h1>
       <form>
-        <input placeholder="Name" />
         <input placeholder="Email" type="email" />
         <input placeholder="password" type="password" />
-        <button type="button" onClick={() => handleShowSnackbar('Zarejestrowano pomyślnie')}>Register</button>
-        <Link className="link" to={'/login'}><button type="button">Log in</button></Link>
+        <button type="button" onClick={() => handleShowSnackbar('Zalogowano pomyślnie')}>Login</button>
+        <Link className="link" to={'/signup'}><button type="button">Register</button></Link>
       </form>
       {showSnackbar && <Snackbar message={snackbarMessage} />}
+    </div>
+    <div className="photo">
+      <img src={Mountain2}/>
     </div>
     </div>
   );
 }
 
-export default Signup;
+export default Login;
