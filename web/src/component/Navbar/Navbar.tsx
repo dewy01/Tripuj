@@ -19,10 +19,12 @@ export const Navbar = () => {
             <ul className={open ? 'nav-menu' : 'nav-menu active'}>
                 {MenuItems.map(item=>(
                     <li>
-                        <Link to={item.url} className={item.cName}>{item.title}</Link>
+                        <Link key={item.title} to={item.url} className={item.cName}>{item.title}</Link>
                     </li>
                 ))}
+                <Link to={'/signup'}>
                 <button>SignUp</button>
+                </Link>
             </ul>
         </nav>
     );
