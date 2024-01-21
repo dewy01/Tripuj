@@ -4,6 +4,7 @@ import Service from './View/Service/Service';
 import Contact from './View/Contact/Contact';
 import Home from './View/Home/Home';
 import AboutView from './View/About/AboutView';
+import SignupView from './View/Signup/SignupView';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<AboutView />} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/signup" element={<SignupView />} />
       </Routes>
     </BrowserRouter>
   )
