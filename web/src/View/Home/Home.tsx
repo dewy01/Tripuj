@@ -5,6 +5,7 @@ import Navbar from "../../component/Navbar/Navbar";
 import heroimage from "../../assets/1.jpg";
 import Trip from "../../component/Trip/Trip";
 import Middle from "../../component/Middle/Middle";
+import SearchDestination from "../../component/SearchDestination/SearchDestination";
 
 
 export const Home =() =>{
@@ -21,6 +22,7 @@ export const Home =() =>{
         btnClass="show"
       />
       <Middle/>
+      <SearchDestination/>
       <Destination />
       <Trip />
       <Footer />

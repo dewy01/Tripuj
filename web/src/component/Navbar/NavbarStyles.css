@@ -34,7 +34,7 @@
 }
 
 .nav-links:hover {
-    background-color: #e6883b;
+    background-color: #97cdec;
     color: #fff;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
@@ -108,7 +108,7 @@ button:hover {
     }
 
     .nav-links:hover {
-        background-color: #e6883b;
+        background-color: #97cdec;
         transition: none;
         z-index: 99;
     }
@@ -124,7 +124,7 @@ button:hover {
         margin: auto;
         border-radius: 4px;
         width: 80%;
-        background-color: #e6883b;
+        background-color: #97cdec;
         text-decoration: none;
         color: #fff;
         font-size: 1.2rem;

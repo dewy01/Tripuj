@@ -3,6 +3,7 @@ import Hero from "../../component/Hero/Hero";
 import Navbar from "../../component/Navbar/Navbar";
 import AboutImg from "../../assets/night.jpg";
 import About from "../../component/About/About";
+import WhyUs from "../../component/WhyUs/WhyUs";
 
 
 export const AboutView =()=> {
@@ -16,6 +17,7 @@ export const AboutView =()=> {
         btnClass="hide"
       />
       <About />
+      <WhyUs/>
       <Footer />
     </>
   );

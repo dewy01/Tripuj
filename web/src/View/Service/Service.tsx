@@ -4,6 +4,7 @@ import Hero from "../../component/Hero/Hero";
 import Navbar from "../../component/Navbar/Navbar";
 import Trip from "../../component/Trip/Trip";
 import Mountain3 from "../../assets/3.jpg";
+import Clients from "../../component/Clients/Clients";
 
 
 function Service() {
@@ -17,6 +18,7 @@ function Service() {
         text="Nasze ostatnie wycieczki"
         btnClass="hide"
       />
+      <Clients/>
       <Trip />
       <Footer />
     </>

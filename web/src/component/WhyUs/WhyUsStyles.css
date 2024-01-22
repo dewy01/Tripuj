@@ -1,0 +1,44 @@
+.why-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 5vh 10vh 5vh;
+}
+
+.why-img {
+    overflow: hidden;
+    max-width: 100%;
+    clip-path: circle(38%);
+    transition: clip-path 1s;
+}
+
+.why-img:hover {
+    clip-path: circle(70%);
+}
+
+.why-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 30vw;
+}
+
+.why-smaller {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+    .why-container {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .why-text {
+        max-width: 60vw;
+    }
+}
