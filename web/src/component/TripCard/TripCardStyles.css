@@ -1,0 +1,49 @@
+.trip-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.trip-card img {
+    max-width: 100%;
+    min-height: 80%;
+    max-height: 80%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.trip-info {
+    margin-top: 10px;
+}
+
+.cities-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 200px 20px 200px;
+}
+
+@media screen and (max-width: 850px) {
+    .cities-cards-container {
+        padding: 0;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+
+    .trip-card {
+        min-width: 400px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .trip-card {
+        width: 450px;
+    }
+
+
+}

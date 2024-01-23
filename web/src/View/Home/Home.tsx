@@ -6,7 +6,7 @@ import heroimage from "../../assets/1.jpg";
 import Trip from "../../component/Trip/Trip";
 import Middle from "../../component/Middle/Middle";
 import SearchDestination from "../../component/SearchDestination/SearchDestination";
-
+import CitiesCards from "../../component/TripCard/TripCard";
 
 export const Home =() =>{
   return (
@@ -23,6 +23,7 @@ export const Home =() =>{
       />
       <Middle/>
       <SearchDestination/>
+      <CitiesCards/>
       <Destination />
       <Trip />
       <Footer />

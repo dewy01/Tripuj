@@ -58,6 +58,15 @@
     width: 50%;
 }
 
+.signup-validate {
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    color: rgb(226, 52, 52);
+}
+
 @media screen and (max-width: 850px) {
     .form-container {
         margin: 4rem 2rem;
