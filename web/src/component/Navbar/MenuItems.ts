@@ -6,27 +6,27 @@ export type MenuProps = {
 
 export const MenuItems: MenuProps[] = [
     {
-        title: "Home",
+        title: "Dom",
         url: "/",
         cName: "nav-links",
     },
     {
-        title: "About",
+        title: "O nas",
         url: "/about",
         cName: "nav-links",
     },
     {
-        title: "Service",
+        title: "Usługi",
         url: "/service",
         cName: "nav-links",
     },
     {
-        title: "Contact",
+        title: "Kontakt",
         url: "/contact",
         cName: "nav-links",
     },
     {
-        title: "Sign Up",
+        title: "Zarejestuj",
         url: "/signup",
         cName: "nav-links-mobile",
     }

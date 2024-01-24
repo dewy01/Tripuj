@@ -15,8 +15,8 @@ export const Clients = () => {
     return(
         <div className='clients-container'>
             <div className='clients-left'>
-                <p className='clients-subtitle'>FROM OUR CLIENTS</p>
-                <h2>Real travel history from our clients</h2>
+                <p className='clients-subtitle'>OD NASZYCH KLIENTÓW</p>
+                <h2>Prawdziwe historie naszych podróżników</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id lacus in massa sodales tincidunt in quis leo. Nulla blandit malesuada interdum. Aliquam in scelerisque justo. Donec elit augue, malesuada a porttitor et, laoreet elementum quam.</p>
                 <div className="static-star-rating">
                 {[1, 2, 3, 4, 5].map((value) => (
@@ -24,7 +24,6 @@ export const Clients = () => {
                     &#9733;
                     </span>
                 ))}
-                <p>Rating: 5/5</p>
                 </div>
                 <div className="user-photos">
                 {userPhotos.map((photo, index) => (

@@ -6,24 +6,24 @@ export const Footer = () => {
 
       <div className="bottom">
         <div>
-          <h4>Project</h4>
+          <h4>Wykonanie</h4>
           <a href="/">Status</a>
-          <a href="/">License</a>
+          <a href="/">Licencja</a>
         </div>
         <div>
-          <h4>Community</h4>
-          <a href="/">Projects</a>
-          <a href="/">Twitter</a>
+          <h4>Społeczność</h4>
+          <a href="/">Facebook</a>
+          <a href="/">Instagram</a>
         </div>
         <div>
-          <h4>Help</h4>
+          <h4>Pomoc</h4>
           <a href="/">Support</a>
-          <a href="/">Contact Us</a>
+          <a href="/">Kontakt</a>
         </div>
         <div>
-          <h4>Others</h4>
-          <a href="/">Terms of Service</a>
-          <a href="/">Privacy Policy</a>
+          <h4>Inne</h4>
+          <a href="/">Warunki użytkowania</a>
+          <a href="/">Warunki prywatności</a>
         </div>
       </div>
     </div>

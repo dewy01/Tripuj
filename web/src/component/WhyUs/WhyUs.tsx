@@ -8,21 +8,21 @@ export const WhyUs = () => {
             <div className='why-text'>
                 <div>
                 <h2>
-                    Why should You choose Us
+                    Dlaczego akurat my?
                 </h2>
-                <p>We have extensive knowledge and experience in travel industry</p>
+                <p>Posiadamy szeroką wiedzę i doświadczenie w branży turystycznej</p>
                 </div>
                 <div className='why-smaller'>
                     <div>
-                        <h3>Safety and support</h3>
+                        <h3>Bezpieczeństwo i wsparcie</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id lacus in massa sodales tincidunt in quis leo. Nulla blandit malesuada interdum. Aliquam in scelerisque justo. Donec elit augue, malesuada a porttitor et, laoreet elementum quam.</p>
                     </div>
                     <div>
-                        <h3>Diverse Range of Destinations</h3>
+                        <h3>Zróżnicowany zakres miejsc docelowych</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id lacus in massa sodales tincidunt in quis leo. Nulla blandit malesuada interdum. Aliquam in scelerisque justo.</p>
                     </div>
                     <div>
-                        <h3>24/7 Customer support</h3>
+                        <h3>24/7 Wsparcie klienta</h3>
                         <p> Donec elit augue, malesuada a porttitor et, laoreet elementum quam.</p>
                     </div>
                 </div>

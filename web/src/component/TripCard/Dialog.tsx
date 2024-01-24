@@ -24,7 +24,7 @@ const Dialog = ({ isOpen, onClose, city, imageUrl, price }: DialogProps) => {
       <img src={imageUrl} alt={city} />
       <div className="trip-info">
         <h3>{city}</h3>
-        <p>Price: ${price}</p>
+        <p>Cena: ${price}</p>
       </div>
     </div>
   </div>

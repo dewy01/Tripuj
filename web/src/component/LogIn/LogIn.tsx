@@ -29,7 +29,7 @@ export const Login = () => {
   return (
     <div className="flex-login">
       <div className="form-container">
-        <h1>Login to use our services</h1>
+        <h1>Zaloguj się do naszego serwisu</h1>
         <form>
           <input
             placeholder="Email"
@@ -44,10 +44,10 @@ export const Login = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
           <button type="button" onClick={handleLogin}>
-            Login
+            Zaloguj
           </button>
           <Link className="link" to={"/signup"}>
-            <button type="button">Register</button>
+            <button type="button">Zarejestruj</button>
           </Link>
         </form>
         {showSnackbar && <Snackbar message={snackbarMessage} />}

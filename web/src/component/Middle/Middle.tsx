@@ -9,22 +9,22 @@ const Middle = () => {
                 <div className="grid">
                     <span className="flex">
                         <h1>10</h1>
-                        <p>World of Experiences</p>
+                        <p>Punktów obsługi</p>
                     </span>
 
                     <span className="flex">
                         <h1>2k+</h1>
-                        <p>Fine Destinations</p>
+                        <p>Ciekawych miejsc</p>
                     </span>
 
                     <span className="flex">
                         <h1>10k+</h1>
-                        <p>Customer reviews</p>
+                        <p>Pozytywnych opinii</p>
                     </span>
 
                     <span className="flex">
                         <h1>4.8</h1>
-                        <p>Overall Rating</p>
+                        <p>Ocena klientów</p>
                     </span>
                 </div>
             </div>

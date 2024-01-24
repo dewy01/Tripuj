@@ -12,7 +12,9 @@ export const Navbar = () => {
     }
     return(
         <nav className='NavbarItems'>
+            <Link to={'/'} style={{textDecoration:'none'}}>
             <h1 className='navbar-logo'>Tripuj</h1>
+            </Link>
             <div className='menu-icons' onClick={handleOpen}>
                 {open ? <MenuIcon color='action'/> : <CloseIcon color='action'/>}
             </div>
@@ -23,7 +25,7 @@ export const Navbar = () => {
                     </li>
                 ))}
                 <Link to={'/signup'}>
-                <button>SignUp</button>
+                <button>Zarejestruj</button>
                 </Link>
             </ul>
         </nav>

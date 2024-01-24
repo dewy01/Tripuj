@@ -16,13 +16,13 @@ export const ContactForm = () =>{
   };
   return (
     <div className="form-container">
-      <h1>Send a message to us</h1>
+      <h1>Napisz do nas</h1>
       <form>
         <input placeholder="Name" />
         <input placeholder="Email" />
         <input placeholder="Subject" />
         <textarea placeholder="Message" rows={4}></textarea>
-        <button type="button" onClick={() => handleShowSnackbar('Wiadomość wysłana')}>Send Message</button>
+        <button type="button" onClick={() => handleShowSnackbar('Wiadomość wysłana')}>Wyślij wiadomość</button>
       </form>
       {showSnackbar && <Snackbar message={snackbarMessage} />}
     </div>

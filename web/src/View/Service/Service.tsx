@@ -2,9 +2,9 @@
 import Footer from "../../component/Footer/Footer";
 import Hero from "../../component/Hero/Hero";
 import Navbar from "../../component/Navbar/Navbar";
-import Trip from "../../component/Trip/Trip";
 import Mountain3 from "../../assets/3.jpg";
 import Clients from "../../component/Clients/Clients";
+import TripsService from "../../component/TripsService/Trip";
 
 
 function Service() {
@@ -19,7 +19,7 @@ function Service() {
         btnClass="hide"
       />
       <Clients/>
-      <Trip />
+      <TripsService />
       <Footer />
     </>
   );

@@ -26,7 +26,7 @@ export const Signup = () =>{
 
     const validateName = () => {
       if (name.trim() === "") {
-        setNameError("Name is required");
+        setNameError("Imie jest wymagane");
         return false;
       }
       setNameError("");
@@ -35,7 +35,7 @@ export const Signup = () =>{
     
     const validateEmail = () => {
       if (email.trim() === "") {
-        setEmailError("Email is required");
+        setEmailError("Email jest wymagany");
         return false;
       }
       setEmailError("");
@@ -44,7 +44,7 @@ export const Signup = () =>{
     
     const validatePassword = () => {
       if (password.trim() === "") {
-        setPasswordError("Password is required");
+        setPasswordError("Hasło jest wymagane");
         return false;
       }
       setPasswordError("");
@@ -58,7 +58,7 @@ export const Signup = () =>{
     <img src={Mountain1}/>
   </div>
     <div className="form-container">
-      <h1>Register to use our services</h1>
+      <h1>Zarejestruj się do naszego serwisu</h1>
       <form>
         
         <div className="signup-validate">
@@ -103,9 +103,9 @@ export const Signup = () =>{
           }
         }}
       >
-        Register
+        Zarejestruj
       </button>
-        <Link className="link" to={'/login'}><button type="button">Log in</button></Link>
+        <Link className="link" to={'/login'}><button type="button">Zaloguj</button></Link>
       </form>
       {showSnackbar && <Snackbar message={snackbarMessage} />}
     </div>

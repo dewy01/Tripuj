@@ -14,19 +14,19 @@ type Props = {
       <img src={imageUrl} alt={city} />
       <div className="trip-info">
         <h3>{city}</h3>
-        <p>Price: ${price}</p>
+        <p>Cena: ${price}</p>
       </div>
     </div>
   );
   
 
 const cities = [{
-    city: "Munich",
+    city: "Monachium",
     imageUrl: "https://tinyurl.com/5d9jyu8t",
     price: 125
   },
   {
-    city: "New York",
+    city: "Nowy Jork",
     imageUrl: "https://tinyurl.com/ytuy79b3",
    price: 112
   },
@@ -41,12 +41,12 @@ const cities = [{
    price: 213
   },
   {
-    city: "London",
+    city: "Londyn",
     imageUrl: "https://tinyurl.com/5ybt45k5",
    price: 119
   },
   {
-    city: "Paris",
+    city: "Paryż",
     imageUrl: "https://tinyurl.com/yaf6ybn4",
    price: 399
   },]

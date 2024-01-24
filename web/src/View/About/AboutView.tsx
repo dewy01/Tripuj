@@ -1,7 +1,7 @@
 import Footer from "../../component/Footer/Footer";
 import Hero from "../../component/Hero/Hero";
 import Navbar from "../../component/Navbar/Navbar";
-import AboutImg from "../../assets/night.jpg";
+import AboutImg from "../../assets/12.jpg";
 import About from "../../component/About/About";
 import WhyUs from "../../component/WhyUs/WhyUs";
 
